@@ -1,0 +1,186 @@
+body {
+  overflow-x: hidden;
+}
+/* header-section */
+
+#navbar {
+  height: 45vh;
+  width: 60%;
+  border-bottom-right-radius: 50%;
+}
+.nav-links {
+  flex-direction: column;
+  gap: 1.2rem;
+  width: 50%;
+  height: 40%;
+  align-items: start;
+  padding-left: 1rem;
+}
+.nav-icons {
+  margin: 0;
+  padding-left: 1rem;
+  align-items: start;
+  padding-top: 2rem;
+}
+.logo {
+ margin-top: 9rem;
+}
+/* banner-section */
+#banner {
+  height: 50vh;
+  width: 80%;
+  margin: 0;
+}
+.arrow-right,.arrow-left {
+  color: grey;
+  font-size: 1rem;
+}
+/* category-section */
+#category-sec {
+  width: 90%;
+  height: 100%;
+}
+.cat-box-container {
+  flex-direction: column;
+  gap: 0.4rem;
+}
+.product-name {
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+/* brand-section */
+#brand-section {
+  padding: 0.3rem;
+  margin-bottom: 1rem;
+  height: 70vh;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+.brand-container {
+  flex-direction: column;
+  height: 99%;
+}
+.brand-box,.brand-box2,.brand-box3 {
+  height: 80%;
+  width: 100%;
+}
+/* ------------------shopping-section------------ */
+#shopping-section {
+  margin: 5rem auto;
+}
+.shopping-container {
+  padding: 0.5rem;
+}
+.shop-box {
+  height: 300px;
+  width: 175px;
+  padding: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+h1 {
+  margin-left: 37%;
+}
+.ratings {
+  font-size: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+.shop-box p {
+  font-size: 0.6rem;
+  margin-bottom: 0.2rem;
+}
+/* footer-section */
+#footer-section {
+  height: 100vh;
+}
+/* f1 */
+.f-1 {
+  margin-top: 0.4rem;
+  padding: 0 1rem;
+}
+.col3 {
+  padding: 0.2rem;
+  width: 20%;
+  font-size: 10px;
+}
+.f-1 i {
+  font-size: 0.8rem;
+  margin-right: 0.2rem;
+}
+.f-1 p {
+  margin-bottom: 0.6rem;
+}
+.f-1 input {
+ font-size: 10px;
+  width: 70px;
+  padding-bottom: 5px;
+}
+.f-1 button {
+  padding: 4px 6px;
+  font-size: 0.7rem;
+  border: 0.5px solid white;
+  margin-top: 10px;
+}
+.col3 .ga-logo img{
+  width: 100%;
+}
+.f-three {
+  font-size: 0.5rem;
+}
+
+/* f2 */
+.f-2 {
+  padding: 1rem;
+}
+.f2-container {
+  gap: 1rem;
+  font-size: 10px;
+  padding: 1rem 2rem;
+}
+.col5 img {
+  width: 60%;
+  object-fit: cover;
+}
+/* f3 */
+.f-3 {
+  padding: 10px 0;
+  width: 100%;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+.col4 {
+  width: 80px;
+  height: 100px;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+.col4-img-icon {
+  width: 40px;
+}
+.desc {
+  gap: 0.6rem;
+}
+.desc p {
+  font-size: 10px;
+}
+.desc small {
+  font-size: 10px;
+}
+.f-4 ul {
+  font-size: 12px;
+}
+.f-4 ul li {
+  margin-right: 0.3rem;
+}
+.f-4 p {
+  font-size: 10px;
+}
+/* f5 */
+.f-5 {
+  height: 50vh;
+  padding: 1rem 2.5rem;
+}
+.f-5 li {
+  margin-right: 0.8rem;
+}
